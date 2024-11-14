@@ -62,7 +62,7 @@ p{
 }
 h1{
     font-family:sans-serif;
-    font-weight:bolder;
+  font-weight:bolder;
     font-size:xx-large;
     font-stretch:expanded;
 }
@@ -74,7 +74,7 @@ h1{
     border:none;
     background-image: url(/assets/img/clean.jpg) ;
     background-size: cover;
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.408);
     opacity: 1;
     display: block;
     transition: .5s ease;
@@ -90,44 +90,89 @@ h1{
     border:none;
     background-image: url(/assets/img/5283763-spgwenann2016001_dc11-0.jpg) ;
     background-size: cover;
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
     opacity: 1;
     display: block;
     transition: .5s ease;
     backface-visibility: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.401);
 }
+.button3 {
+    width: 260px;
+    height: 400px;
+    position:relative ;
+    border:none;
+    background-image: url(/assets/img/FEB200920.jpg) ;
+    background-size: cover;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.401);
+}
+
+
+
 
 .button2:hover{
     transition: 0.3s;
     opacity: 0.5;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
 }
 .button:hover{
     transition: 0.3s;
     opacity: 0.5;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
+
+}
+.button3:hover{
+    transition: 0.3s;
+    opacity: 0.5;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
 
 }
 .gwen {
-    display: flex;
+    display:inline-block;
     align-content: center;
-    margin: 3rem 5rem;
-    column-gap: -10px;
+margin-left: -28rem;
+margin-top: 1rem;
+margin-bottom: 3rem;
+    position: relative;
+    width: 50%;
+}
+.noir {
+    display:inline-block;
+    align-content: center;
+margin-left: -28rem;
+margin-top: 1rem;
+margin-bottom: 3rem;
     position: relative;
     width: 50%;
 }
 .miles1{
-    display: flex;
+    display:inline-block;
     align-content: center;
-    margin: 3rem 5rem;
-    column-gap: -10px;
     position: relative;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
     width: 50%;
 }
 .cont1{
 display: flex;
 align-content: center;
-margin: 3rem 5rem;
-column-gap: -10px;
 }
+.cont0{
+    display: flex;
+align-content: center;
+margin-left: 4rem ;
+font-family:sans-serif;
+    font-weight:bolder;
+    font-size:xx-large;
+    font-stretch:expanded;
+    color:#202020;
+
+}
+
 
 .{
   color:#ffffff;
