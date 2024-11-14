@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #202020;
+    margin: 30px;
+}
+.logo {
+    height: 70px;
+    width: auto;
+}
