@@ -1,37 +1,52 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .navbar {
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #202020;
-    margin: 30px;
+    position: fixed;
+    z-index:1;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #EC1D24;
+ 
+   
 }
 .logo {
-    height: 70px;
-    width: auto;
-}
-
-a {text-decoration: #ffffff;
-    color:#ffffff;
-    margin-inline: 1rem;
-    font-family:sans-serif;
-    font-weight:700;
-    font-size:large;
-    font-stretch: condensed;
     float: left;
+  margin-left: 40px;
+  height: 70px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 
 }
 
-.navbar a:hover {
+b {
+    display: block;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:inline-start;
+    font-weight:bold;
+    font-size:medium;
+    font-stretch:narrower;
+   margin: 1rem 1rem;
+}
+
+
+
+.navbar b:hover {
     background-color:#EC1D24;
-  border: none;
-  width: 7rem;
-  color:#ffffff;
-  padding: 0.6rem;
-  text-align: center;
-  position: relative;
   transition: 0.3s;
-  display: block;
+
 }
 
 body, html {
@@ -49,6 +64,7 @@ body, html {
     text-align: center;
     position: absolute;
     top: 50%;
+    margin-top: 1.5rem;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -110,7 +126,33 @@ h1{
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.401);
 }
 
+.button4 {
+    width: 260px;
+    height: 400px;
+    position:relative ;
+    border:none;
+    background-image: url(/assets/img/spider-punk-1b.jpg) ;
+    background-size: cover;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.401);
+}
 
+.button5 {
+    width: 260px;
+    height: 400px;
+    position:relative ;
+    border:none;
+    background-image: url(/assets/img/SMINDIA2022005_Preview_page_1.jpeg) ;
+    background-size: cover;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.401);
+}
 
 
 .button2:hover{
@@ -130,21 +172,47 @@ h1{
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
 
 }
+.button4:hover{
+    transition: 0.3s;
+    opacity: 0.5;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
+
+}
+.button5:hover{
+    transition: 0.3s;
+    opacity: 0.5;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
+
+}
 .gwen {
     display:inline-block;
     align-content: center;
-margin-left: -28rem;
-margin-top: 1rem;
-margin-bottom: 3rem;
+    margin: 4rem;
+    margin-left: -2rem;
     position: relative;
     width: 50%;
 }
 .noir {
     display:inline-block;
     align-content: center;
-margin-left: -28rem;
-margin-top: 1rem;
-margin-bottom: 3rem;
+    margin: 4rem;
+    margin-left: -2rem;
+    position: relative;
+    width: 50%;
+}
+.punk {
+    display:inline-block;
+    align-content: center;
+    margin: 4rem;
+    margin-left: -2rem;
+    position: relative;
+    width: 50%;
+}
+.india {
+    display:inline-block;
+    align-content: center;
+margin:4rem;
+margin-top: -1rem;
     position: relative;
     width: 50%;
 }
@@ -152,19 +220,30 @@ margin-bottom: 3rem;
     display:inline-block;
     align-content: center;
     position: relative;
-    margin-left: 4rem;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+  margin: 4rem;
     width: 50%;
 }
+
 .cont1{
 display: flex;
 align-content: center;
+margin-right: 1rem;
+margin-left: 3.5rem;
+margin-top: -2rem;
 }
+.cont2{
+    display: flex;
+    align-content: center;
+    margin-right: 1rem;
+    margin-left: 3.5rem;
+    }
 .cont0{
     display: flex;
 align-content: center;
-margin-left: 4rem ;
+margin: 4rem;
+margin-left: 3.5rem;
+margin-top:2rem;
+margin-bottom: -2rem;
 font-family:sans-serif;
     font-weight:bolder;
     font-size:xx-large;
