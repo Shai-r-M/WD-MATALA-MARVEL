@@ -24,6 +24,7 @@
   height: 70px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-top: 0.2rem;
 
 }
 
@@ -45,12 +46,21 @@ b {
 
 .navbar b:hover {
     background-color:#EC1D24;
-  transition: 0.3s;
+  transition: 0.4s;
 
 }
 
+li b:hover:not(.active) {
+    background-color:#EC1D24;
+  }
+  
+.active {
+    background-color: #EC1D24;
+  }
+
 body, html {
     height: 100%;
+    color: #ffffff;
 }
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/44gbw2j81od51.jpg);
@@ -154,6 +164,32 @@ h1{
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.401);
 }
 
+.button6 {
+    width: 260px;
+    height: 400px;
+    position:relative ;
+    border:none;
+    background-image: url(/assets/img/cf2497066db4a80677e6cba10d9ee29a.jpg) ;
+    background-size: cover;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.401);
+}
+.button7 {
+    width: 260px;
+    height: 400px;
+    position:relative ;
+    border:none;
+    background-image: url(/assets/img/mohsm20992024001_cover-zbuasmhoclieref2bptmbifxqa.jpg) ;
+    background-size: cover;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.401);
+}
 
 .button2:hover{
     transition: 0.3s;
@@ -179,6 +215,19 @@ h1{
 
 }
 .button5:hover{
+    transition: 0.3s;
+    opacity: 0.5;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
+
+}
+
+.button6:hover{
+    transition: 0.3s;
+    opacity: 0.5;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
+
+}
+.button7:hover{
     transition: 0.3s;
     opacity: 0.5;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.745);
@@ -216,7 +265,28 @@ margin-top: -1rem;
     position: relative;
     width: 50%;
 }
-.miles1{
+.prowler{
+        display:inline-block;
+        align-content: center;
+    margin:4rem;
+    margin-top: -1rem;
+    margin-left: -23.2rem;
+        position: relative;
+        width: 50%;
+}
+.miguel {
+    display:inline-block;
+        align-content: center;
+        margin:4rem;
+        margin-top: -1rem;
+        margin-left: -22.9rem;
+        position: relative;
+        width: 50%;
+}
+.button-icon{
+    font-size: 1.1em;
+}
+    .miles1{
     display:inline-block;
     align-content: center;
     position: relative;
@@ -253,25 +323,46 @@ font-family:sans-serif;
 }
 
 
-.{
-  color:#ffffff;
-  font-family:sans-serif;
-    font-weight:700;
-    font-size:large;
-  padding: 2rem;
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
+.Mlogo {
+    align-content: center;
+    margin-left: 36rem  ;
 
+
+}
 .miles1:hover .text {
     opacity: 1; 
     background-color: #EC1D24;
+}
+.footer1{
+    position:relative;
+    width: 100%;
+height: 200px;
+background-color: #202020;
+padding: 3rem;
+margin-top: 0px;
+
+}
+.texts {
+    display:inline-block;
+    align-content:center;
+font-size: small;
+margin-left: 40rem  ;
+margin-top: -50rem;
+h2{
+    font-family:sans-serif;
+    font-weight:300;
+    font-size:medium;
+    font-stretch:normal;
+    color:#767676;
+}
+p{
+    font-family:sans-serif;
+    font-weight:300;
+    font-size:medium;
+    font-stretch:normal;
+    color:#767676 ;
+}
+
 }
 
 
