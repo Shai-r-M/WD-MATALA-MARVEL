@@ -61,3 +61,17 @@ body, html {
     height: 100%;
     color: #ffffff;
 }
+
+.milesinfo {
+    display: flex;
+    float: right;
+    color: #202020;
+    border: 2rem;
+    flex-direction: column;
+
+}
+.cont10{
+    display: inline-flex;
+   margin: 10rem;
+   margin-top: 10rem;
+}

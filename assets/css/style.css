@@ -71,6 +71,7 @@ body, html {
     position: relative;
 }
 .banner_text {
+    
     text-align: center;
     position: absolute;
     top: 50%;
@@ -80,11 +81,44 @@ body, html {
     color: #ffffff;
 
 }
+.banner_text:after {
+        content: '';
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 999;
+        pointer-events: none;
+        opacity: 0.2;
+        filter: invert(1);
+        background-size: cover;
+    
+}
+.grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #quote {
+    --weight: 10;
+    background-size: contain;
+    line-height: 0.8;
+    margin: 0;
+    text-align: left;
+  }
+  
+  #quote > * {
+    color: hsl(347, 7%, 29%);
+    font-variation-settings: 'wght' var(--weight);
+  }
 p{
     font-family:sans-serif;
     font-weight:300;
     font-size:medium;
     font-stretch:normal;
+    color: #ffffff;
 }
 h1{
     font-family:sans-serif;
@@ -348,6 +382,7 @@ margin-top: 0px;
 font-size: small;
 margin-left: 40rem  ;
 margin-top: -50rem;
+}
 h2{
     font-family:sans-serif;
     font-weight:300;
@@ -363,7 +398,7 @@ p{
     color:#767676 ;
 }
 
-}
+
 
 
 
