@@ -26,7 +26,57 @@
   margin-top: 0.2rem;
 
 }
+.buttonn {
+    position:relative; 
+    transform:translateX left(-230%);
+  
+}
 
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #EC1D24;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #202020;
+    cursor: pointer;
+    display: inline-block;
+    align-content: center;
+    font-family:sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height:normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 10px 80px;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+    text-align: center;
+  
+  }
+  
+  .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .button-28:hover {
+    color: #ffffff;
+    background-color:#EC1D24;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
 b {
     display: block;
     color:#ffffff;
@@ -95,13 +145,17 @@ h3{
     font-size: medium;
     font-weight: 500;
     font-stretch: semi-expanded;
+    color: #767676;
 }
+
 }
 .cont10{
-    display: inline-flex;
+    display: flex;
    margin: 10rem;
    margin-top: 10rem;
    margin-bottom: 5rem;
+   align-content: center;
+   position: relative;
 }
 
 body {
@@ -113,16 +167,16 @@ body {
     width: 100%;
 height: 200px;
 background-color: #202020;
-padding: 3rem;
-margin-top: 0px;
+align-content: center;
 
+
+.footlog {  float: left;
+  margin-left: 40px;
+  height: 70px;}
 }
 .texts {
-    display:inline-block;
-    align-content:center;
-font-size: small;
-margin-left: 40rem  ;
-margin-top: -50rem;
+    display:inline-block; position: absolute; margin: 2rem;
+
 }
 h2{
     font-family:sans-serif;
@@ -138,4 +192,15 @@ p{
     font-stretch:normal;
     color:#ffffff;
 }
- 
+@media screen and (max-width:  1020px) {
+  #menu-icon {
+      height: 30px;
+      width: 30px;
+      color: var(--main-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--icon-font);
+      cursor: pointer;
+  }
+}
