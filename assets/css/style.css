@@ -28,7 +28,7 @@
 
 }
 
-b {
+a {
     display: block;
     color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -44,13 +44,13 @@ b {
 
 
 
-.navbar b:hover {
+.navbar a:hover {
     background-color:#EC1D24;
   transition: 0.4s;
 
 }
 
-li b:hover:not(.active) {
+li a:hover:not(.active) {
     background-color:#EC1D24;
   }
   
@@ -439,3 +439,4 @@ body {
         cursor: pointer;
     }
   }
+

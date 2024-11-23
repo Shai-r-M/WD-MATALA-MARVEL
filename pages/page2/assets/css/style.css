@@ -28,14 +28,13 @@
 }
 .buttonn {
     position:relative; 
-    transform:translateX left(-230%);
-  
+
 }
 
 .button-28 {
-    appearance: none;
+    appearance: none; 
     background-color: transparent;
-    border: 2px solid #EC1D24;
+    border: 2px solid #767676;
     border-radius: 15px;
     box-sizing: border-box;
     color: #202020;
@@ -67,8 +66,8 @@
   }
   
   .button-28:hover {
-    color: #ffffff;
-    background-color:#EC1D24;
+    color:#202020;
+    background-color:#767676;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
   }
@@ -77,38 +76,32 @@
     box-shadow: none;
     transform: translateY(0);
   }
-b {
-    display: block;
-    color:#ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float:inline-start;
-    font-weight:bold;
-    font-size:medium;
-    font-stretch:narrower;
-   margin: 1rem 1rem;
+a {
+  display: block;
+  color:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:inline-start;
+  font-weight:bold;
+  font-size:medium;
+  font-stretch:narrower;
+ margin: 1rem 1rem;
 }
 
 
 
-.navbar b:hover {
-    background-color:#EC1D24;
-  transition: 0.4s;
+.navbar a:hover {
+  background-color:#EC1D24;
+transition: 0.4s;
 
 }
-.milessec {
-    opacity: 1;
-    display: block;
-    width: 380px;
-    height: 600px;
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.401);
+
+li a:hover:not(.active) {
+  background-color:#EC1D24;
 }
 
-li b:hover:not(.active) {
-    background-color:#EC1D24;
-  }
   
 .active {
     background-color: #EC1D24;
