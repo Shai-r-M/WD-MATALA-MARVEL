@@ -115,7 +115,7 @@ h1{
     height: 400px;
     position:relative ;
     border:none;
-    background-image: url(./assets/img/clean.jpg) ;
+    background-image: url(../assets/img/clean.jpg) ;
     background-size: cover;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.408);
     opacity: 1;
@@ -131,7 +131,7 @@ h1{
     height: 400px;
     position:relative ;
     border:none;
-    background-image: url(./assets/img/5283763-spgwenann2016001_dc11-0.jpg) ;
+    background-image: url(../assets/img/5283763-spgwenann2016001_dc11-0.jpg) ;
     background-size: cover;
     opacity: 1;
     display: block;
@@ -144,7 +144,7 @@ h1{
     height: 400px;
     position:relative ;
     border:none;
-    background-image: url(./assets/img/FEB200920.jpg) ;
+    background-image: url(../assets/img/FEB200920.jpg) ;
     background-size: cover;
     opacity: 1;
     display: block;
@@ -158,7 +158,7 @@ h1{
     height: 400px;
     position:relative ;
     border:none;
-    background-image: url(./assets/img/spider-punk-1b.jpg) ;
+    background-image: url(../assets/img/spider-punk-1b.jpg) ;
     background-size: cover;
     opacity: 1;
     display: block;
