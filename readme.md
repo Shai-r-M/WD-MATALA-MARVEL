@@ -116,5 +116,8 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | spiderpunk cover art | product thumbnail |(https://www.giantfreakinrobot.com/ent/spider-man-spider-punk-spider-verse.html) |
+| spider noir cover art | product thumbnail | https://www.kobo.com/ph/en/ebook/spider-man-noir |
+| miles morales cover art | product thumbnail | https://www.amazon.ae/Spider-man-Morales-Brian-Michael-Bendis/dp/1302922882 |
+| spider gwen cover art | product thumbnail | https://www.marvel.com/comics/collection/60175/spider-gwen_vol_3_long-distance_tpb_trade_paperback |
 | fixed menu | fixed menu | https://www.w3schools.com/howto/howto_css_fixed_menu.asp |
 | image as buttons | clickable product thumbnails | https://youtu.be/-9MSxO0uSec?si=S1HBmt3Xpvaoapdx |
