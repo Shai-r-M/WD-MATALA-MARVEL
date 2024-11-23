@@ -185,7 +185,7 @@ p{
     font-stretch:normal;
     color:#ffffff;
 }
-@media screen and (max-width:  1020px) {
+@media screen and (max-width:  1020px)  {
   #menu-icon {
       height: 30px;
       width: 30px;
@@ -197,3 +197,4 @@ p{
       cursor: pointer;
   }
 }
+
