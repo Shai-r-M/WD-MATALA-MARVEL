@@ -6,6 +6,7 @@
 <div align="center">
   <a href="https://github.com/Shai-r-M/">
 
+<a href="https://wakatime.com/badge/user/65499c87-06d1-46d4-b5cc-56a7fb0b71f5/project/18bce130-9570-4fb2-a2b0-b978d625e351"><img src="https://wakatime.com/badge/user/65499c87-06d1-46d4-b5cc-56a7fb0b71f5/project/18bce130-9570-4fb2-a2b0-b978d625e351.svg" alt="wakatime"></a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">own marvel website</h3>
 </div>
