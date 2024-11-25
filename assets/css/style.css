@@ -108,7 +108,9 @@ h1{
 }
 }
   
-
+.coms {
+    padding: 2rem;
+}
 
 .button {
     width: 260px;
@@ -165,6 +167,7 @@ h1{
     transition: .5s ease;
     backface-visibility: hidden;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.401);
+   
 }
 
 
